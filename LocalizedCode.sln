@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analyzers", "src\Analyzers\Analyzers.csproj", "{918B6A00-3C34-4505-B477-1F10AA7350B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{5EFAB81E-4B1F-49DF-8A0F-26CD08ADF463}"
+ProjectSection(SolutionItems) = preProject
+	src\Directory.Build.props = src\Directory.Build.props
+	Build.ps1 = Build.ps1
+	LICENSE = LICENSE
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "src\Tests\Tests.csproj", "{4D116A74-05C6-4C2F-829B-AD5BB526DD6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{918B6A00-3C34-4505-B477-1F10AA7350B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918B6A00-3C34-4505-B477-1F10AA7350B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918B6A00-3C34-4505-B477-1F10AA7350B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918B6A00-3C34-4505-B477-1F10AA7350B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D116A74-05C6-4C2F-829B-AD5BB526DD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D116A74-05C6-4C2F-829B-AD5BB526DD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D116A74-05C6-4C2F-829B-AD5BB526DD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D116A74-05C6-4C2F-829B-AD5BB526DD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
